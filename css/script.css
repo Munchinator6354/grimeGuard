@@ -13,9 +13,10 @@
 @media (max-width:514px) {
     .navbar-brand{
         font-size:1.45rem;
+        margin:0 auto;
     }
     .navbar-toggler{
-        margin: 0 auto;
+        margin:0 auto;
     }
 } 
 

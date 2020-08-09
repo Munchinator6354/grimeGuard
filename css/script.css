@@ -1,5 +1,5 @@
 #wrapper {
-    width:80%;
+    width:85%;
     margin:0 auto;
 }
 
@@ -9,3 +9,15 @@
     padding:1rem;
     font-size: 2rem;
 }
+
+@media (max-width:514px) {
+    .navbar-brand{
+        font-size:1.45rem;
+    }
+    .navbar-toggler{
+        margin: 0 auto;
+    }
+} 
+
+
+/* Need to make it so that when pixel width gets down to 513 pixels, the Brand and Hamburger menu center themselves */
